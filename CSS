@@ -1,0 +1,11 @@
+<style> 
+  .column {
+    flex: 33.33%;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #DBA800;
+    text-align: center;
+  }
+  .container {
+     display: flex;
