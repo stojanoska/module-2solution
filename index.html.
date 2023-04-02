@@ -1,6 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HTML</title>
-<style> 
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+
+<body >
+<h1>My Menu </h1>
+	<section class="section1">
+		<div>
+			<p class="title">Fish</p>
+			<p class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra dui vehicula efficitur volutpat. Integer sed elit in risus egestas ullamcorper et sed dolor.
+			</p>
+		</div>
+	</section>
+	<section class="section2">
+		<div>
+			<p class="title">Sea food</p>
+			<p class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra dui vehicula efficitur volutpat. Integer sed elit in risus egestas ullamcorper et sed dolor.
+      </p>
+		</div>
+	</section>
+	<section class="section3">
+	<div>
+		<p class="title">Salats</p>
+			<p class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra dui vehicula efficitur volutpat. Integer sed elit in risus egestas ullamcorper et sed dolor.
+      </p>
+	</div>
+</body>
+</html>
