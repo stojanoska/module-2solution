@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: gainsboro;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+		margin: 10px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 175%;
+    color:red;
+}
+
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
+	.section1 .title {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 3px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: tomato;
+		
+	}
+
+	.section2 .title {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 3px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: red;
+		
+	}
+
+	.section3 .title {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 3px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: yellow;
+	}
+
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+    clear: right;
+	}
+	
+	.row {
+		width: 90%;
+	}
+
+/* mobile */
+section {
+  float: left;
+  width: 100%;
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px){
+	section {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section.section3 {
+		width: 100%;
+	}
+}
+
+/* desktop */
+@media (min-width: 992px){
+	section {
+		width: 33.33%;
+	}
+}
+</style>*/
